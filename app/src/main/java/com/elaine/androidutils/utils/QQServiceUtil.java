@@ -24,12 +24,10 @@ public class QQServiceUtil {
     private static boolean isQQClientAvailable(Context context) {
         final PackageManager packageManager = context.getPackageManager();
         List<PackageInfo> pInfo = packageManager.getInstalledPackages(0);
-        if (pInfo != null) {
-            for (int i = 0; i < pInfo.size(); i++) {
-                String pn = pInfo.get(i).packageName;
-                if (pn.equals("com.tencent.mobileqq")) {
-                    return true;
-                }
+        for (int i = 0; i < pInfo.size(); i++) {
+            String pn = pInfo.get(i).packageName;
+            if ("com.tencent.mobileqq".equals(pn)) {
+                return true;
             }
         }
         return false;

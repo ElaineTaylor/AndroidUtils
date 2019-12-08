@@ -16,12 +16,12 @@ public class PhoneUtil {
      * 联通号段: 130,131,132,145,155,156,170,171,175,176,185,186
      * 电信号段: 133,149,153,170,173,177,180,181,189
      */
-    public static boolean isMobileNum(String mobileNum) {
+    public static boolean isPhoneNum(String phone) {
         String telRegex = "^((13[0-9])|(14[5,7,9])|(15[^4])|(18[0-9])|(17[0,1,3,5,6,7,8]))\\d{8}$";
-        if (TextUtils.isEmpty(mobileNum)) {
+        if (TextUtils.isEmpty(phone)) {
             return false;
         } else {
-            return mobileNum.matches(telRegex);
+            return phone.matches(telRegex);
         }
     }
 }

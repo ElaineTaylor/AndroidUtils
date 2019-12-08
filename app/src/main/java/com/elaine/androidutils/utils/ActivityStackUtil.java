@@ -73,7 +73,7 @@ public class ActivityStackUtil {
     }
 
     /**
-     * 向栈中添加activity
+     * 向栈中添加a ctivity
      */
     public void addActivity(Activity activity) {
         if (mStack == null) {
