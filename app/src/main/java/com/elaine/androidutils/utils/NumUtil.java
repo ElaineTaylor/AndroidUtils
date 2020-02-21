@@ -5,6 +5,9 @@ import java.text.DecimalFormat;
 import java.text.NumberFormat;
 
 /**
+ * TODO 待完善
+ * 对数字的处理
+ *
  * @author elaine
  */
 public class NumUtil {

@@ -1,6 +1,7 @@
 package com.elaine.androidutils.utils;
 
 /**
+ * TODO 待完善
  * 字符串工具
  *
  * @author elaine
@@ -11,7 +12,7 @@ public class StringUtil {
      * 手机号中间四位处理成*
      *
      * @param phone 手机号
-     * @return  字符串，eg.137****2308
+     * @return 字符串，eg.137****2308
      */
     public static String phoneHandle(String phone) {
         if (phone.length() == 11) {

@@ -5,7 +5,7 @@ import android.text.TextUtils;
 /**
  * 手机号验证
  * 使用说明:检查是否为空，是否符合号段
- * 例如:PhoneUtil.isMobileNum("12345678901");
+ * 例如:PhoneUtil.isPhoneNum("12345678901");
  *
  * @author elaine
  */
