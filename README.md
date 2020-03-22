@@ -33,5 +33,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;字符串工具，对字符串进行特殊处理
 ### 16.TimestampUtil
 &nbsp;&nbsp;&nbsp;&nbsp;时间相关工具，时间的格式化
-### 17.NetworkUtils
+### 17.NetworkUtil
 &nbsp;&nbsp;&nbsp;&nbsp;网络状态，获取当前网络状态
+### 18.AlertDialogUtil
+&nbsp;&nbsp;&nbsp;&nbsp;修正AlertDialog不居中的问题
