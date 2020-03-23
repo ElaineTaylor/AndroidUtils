@@ -11,6 +11,8 @@ import android.view.Window;
 import android.view.WindowManager;
 
 /**
+ *
+ * //TODO 待验证
  * AlertDialog修正工具
  *
  * @author elaine
