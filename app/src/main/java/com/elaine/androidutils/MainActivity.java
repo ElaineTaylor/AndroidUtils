@@ -7,6 +7,10 @@ import android.os.Bundle;
 import com.elaine.androidutils.utils.AlertDialogUtil;
 import com.elaine.androidutils.utils.ToastUtil;
 
+
+/**
+ *  提交测试
+ */
 public class MainActivity extends AppCompatActivity {
 
     @Override
